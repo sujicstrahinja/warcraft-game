@@ -1,0 +1,63 @@
+body {
+    background-image: url("../images/wowBackground2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel-inner .active.left { left: -25%; }
+.carousel-inner .next        { left:  25%; }
+.carousel-inner .prev		 { left: -25%; }
+.carousel-control 			 { width:  4%; }
+.carousel-control.left,.carousel-control.right {margin-left:15px;background-image:none;}
+
+.whiteish-text {
+    color: #9cc !important;
+}
+
+.white-text {
+    color: white !important;
+}
+
+#heroBanner {
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+#heroContainer {
+    margin-bottom: 3%;
+}
+
+.heroName {
+    text-align: center;
+}
+
+#creepBanner {
+    margin-bottom: 1%;
+}
+
+#creepContainer {
+    margin-bottom: 3%;
+}
+
+.progress {
+    position: relative;
+}
+
+.progress span {
+    position: absolute;
+    display: block;
+    width: 100%;
+    color: black;
+ }
+
+.heroHealthBar, .creepHealthBar {
+    background-color: #871a0f !important;
+}
+
+.heroManaBar {
+    background-color: #3f5582 !important;
+}
+
+body {
+    color: #133 !important;
+}
